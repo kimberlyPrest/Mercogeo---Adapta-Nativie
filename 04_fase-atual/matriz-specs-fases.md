@@ -1,0 +1,21 @@
+# Matriz SPECs–Fase 1 — Mercogeo
+
+| CA | SPEC | Task | Leva | Prova |
+|---|---|---|---|---|
+| CA-1-12 | SPEC-1-001 | T1.1,T1.15 | A,G | RED/GREEN/REG |
+| CA-1-14 | SPEC-1-001 | T1.2,T1.15 | B,G | RED/GREEN/REG |
+| CA-1-15 | SPEC-1-001 | T1.2,T1.15 | B,G | RED/GREEN/REG |
+| CA-1-16 | SPEC-1-001 | T1.2,T1.15 | B,G | RED/GREEN/REG |
+| CA-1-01 | SPEC-1-002 | T1.4,T1.17 | C,H | RED/GREEN/REG |
+| CA-1-03 | SPEC-1-002 | T1.3 | B | RED/GREEN |
+| CA-1-04 | SPEC-1-002 | T1.4 | C | RED/GREEN |
+| CA-1-02 | SPEC-1-003 | T1.5 | C | RED/GREEN |
+| CA-1-05 | SPEC-1-003 | T1.5 | C | RED/GREEN |
+| CA-1-06 | SPEC-1-004 | T1.6,T1.16 | C,E | RED/GREEN/REG |
+| CA-1-07 | SPEC-1-004 | T1.7 | D | RED/GREEN |
+| CA-1-08 | SPEC-1-005 | T1.8 | D | RED/GREEN |
+| CA-1-09 | SPEC-1-005 | T1.9 | E | RED/GREEN |
+| CA-1-17 | SPEC-1-005 | T1.10 | F | RED/GREEN |
+| CA-1-10 | SPEC-1-006 | T1.11 | B | RED/GREEN |
+| CA-1-13 | SPEC-1-006 | T1.12 | B | RED/GREEN |
+| CA-1-11 | SPEC-1-007 | T1.13,T1.14 | D,E | RED/GREEN |
