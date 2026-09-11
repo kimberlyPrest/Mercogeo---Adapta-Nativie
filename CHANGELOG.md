@@ -6,4 +6,4 @@
 - Publicadas 7 SPECs da Fase 1 com critérios de aceite e roteiro TDD.
 - Publicadas 17 tasks T1.1–T1.17 com donos, levas, pré-condições, evidências e status.
 - Matriz CA→SPEC→task→prova publicada.
-- Implementação não iniciada.
+- 2026-09-11 · Paulo Romeiro · Task T1.1 concluída: papéis e autorização mínima implementados no SKIP; QA 0.0.4 passou em setup, análise estática, build, integrações e testes; teste humano de login, papel e negação por permissão aprovado.
