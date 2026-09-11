@@ -7,3 +7,4 @@
 - Publicadas 17 tasks T1.1–T1.17 com donos, levas, pré-condições, evidências e status.
 - Matriz CA→SPEC→task→prova publicada.
 - 2026-09-11 · Paulo Romeiro · Task T1.1 concluída: papéis e autorização mínima implementados no SKIP; QA 0.0.4 passou em setup, análise estática, build, integrações e testes; teste humano de login, papel e negação por permissão aprovado.
+- 2026-09-11 · Paulo Romeiro · Task T1.2 concluída: trilha de auditoria protegida, retenção de 365 dias e revogação server-side implementadas no SKIP; QA 0.0.6 passou; migration 0003 aplicada; auth-refresh, checagem de permissão e revogação autenticadas retornaram HTTP 200; teste humano aprovado.
