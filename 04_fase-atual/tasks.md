@@ -7,7 +7,7 @@ As 17 tasks abaixo são o conjunto canônico operacional. A coluna Leva explicit
 | T1.3 | Implementar cadastro e evento de recebimento verificável | Comercial | SPEC-1-002 | CA-1-03 | RED-003/GREEN-003 | registro da demanda + auditoria | T1.1 | B | ✅ concluída |
 | T1.4 | Implementar checklist, estados e classificação de aptidão | Comercial | SPEC-1-002 | CA-1-01, CA-1-04 | RED-004/GREEN-004 | checklist completo/incompleto + decisão piloto | T1.3 | C | ✅ concluída |
 | T1.5 | Implementar ficha técnica versionada e anexos | Engenharia | SPEC-1-003 | CA-1-02 e CA-1-05 | RED-005/GREEN-005 | ficha v1/v2 + anexos vinculados | T1.3 | C | ✅ concluída |
-| T1.6 | Instrumentar marcos e tempo ativo | Gestão de dados | SPEC-1-004 | CA-1-06 | RED-006/GREEN-006 | timeline e revisão semanal | T1.3 | C | ☐ |
+| T1.6 | Instrumentar marcos e tempo ativo | Gestão de dados | SPEC-1-004 | CA-1-06 | RED-006/GREEN-006 | timeline e revisão semanal | T1.3 | C | ✅ concluída |
 | T1.7 | Congelar baseline comparável | Gestão de dados | SPEC-1-004 | CA-1-07 | RED-007/GREEN-007 | relatório baseline + amostra | T1.4,T1.5,T1.6 | D | ☐ |
 | T1.8 | Cadastrar catálogo em estados e responsáveis | Engenharia | SPEC-1-005 | CA-1-08 | RED-008/GREEN-008 | registro rascunho/homologado/inativo | T1.4 | D | ☐ |
 | T1.9 | Homologar regras do piloto e SLA | Engenharia | SPEC-1-005 | CA-1-09 | RED-009/GREEN-009 | ata de homologação + estados | T1.8 | E | ☐ |
