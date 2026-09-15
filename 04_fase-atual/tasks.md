@@ -8,7 +8,7 @@ As 17 tasks abaixo são o conjunto canônico operacional. A coluna Leva explicit
 | T1.4 | Implementar checklist, estados e classificação de aptidão | Comercial | SPEC-1-002 | CA-1-01, CA-1-04 | RED-004/GREEN-004 | checklist completo/incompleto + decisão piloto | T1.3 | C | ✅ concluída |
 | T1.5 | Implementar ficha técnica versionada e anexos | Engenharia | SPEC-1-003 | CA-1-02 e CA-1-05 | RED-005/GREEN-005 | ficha v1/v2 + anexos vinculados | T1.3 | C | ✅ concluída |
 | T1.6 | Instrumentar marcos e tempo ativo | Gestão de dados | SPEC-1-004 | CA-1-06 | RED-006/GREEN-006 | timeline e revisão semanal | T1.3 | C | ✅ concluída |
-| T1.7 | Congelar baseline comparável | Gestão de dados | SPEC-1-004 | CA-1-07 | RED-007/GREEN-007 | relatório baseline + amostra | T1.4,T1.5,T1.6 | D | ☐ |
+| T1.7 | Congelar baseline comparável | Gestão de dados | SPEC-1-004 | CA-1-07 | RED-007/GREEN-007 | relatório baseline + amostra | T1.4,T1.5,T1.6 | D | ✅ concluída |
 | T1.8 | Cadastrar catálogo em estados e responsáveis | Engenharia | SPEC-1-005 | CA-1-08 | RED-008/GREEN-008 | registro rascunho/homologado/inativo | T1.4 | D | ☐ |
 | T1.9 | Homologar regras do piloto e SLA | Engenharia | SPEC-1-005 | CA-1-09 | RED-009/GREEN-009 | ata de homologação + estados | T1.8 | E | ☐ |
 | T1.10 | Registrar gates, donos, prazos e cortes | Engenharia | SPEC-1-005 | CA-1-17 | RED-010/GREEN-010 | ledger de gates e escalonamento | T1.9 | F | ☐ |
