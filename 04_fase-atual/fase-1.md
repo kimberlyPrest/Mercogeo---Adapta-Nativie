@@ -1,6 +1,6 @@
 # Fase 1 — SPECs e Tasks
 
-7 SPECs, 17 CAs e 17 tasks T1.1–T1.17. TDD e fixtures em `ROTEIRO-DE-VALIDACAO.md`. Estado: T1.1, T1.2, T1.3, T1.4 e T1.5 concluídas; 12 tasks pendentes.
+7 SPECs, 17 CAs e 17 tasks T1.1–T1.17. TDD e fixtures em `ROTEIRO-DE-VALIDACAO.md`. Estado: T1.1 a T1.6 concluídas; 11 tasks pendentes.
 
 Levas: A=T1.1; B=T1.2,T1.3,T1.11,T1.12; C=T1.4,T1.5,T1.6; D=T1.7,T1.8,T1.13; E=T1.9,T1.14,T1.16; F=T1.10; G=T1.15; H=T1.17.
 
@@ -11,7 +11,7 @@ Levas: A=T1.1; B=T1.2,T1.3,T1.11,T1.12; C=T1.4,T1.5,T1.6; D=T1.7,T1.8,T1.13; E=T
 |T1.3|Cadastro e recebimento verificável|Comercial|002|CA-1-03|RED/GREEN-003|B|✅ concluída|
 |T1.4|Checklist e aptidão|Comercial|002|CA-1-01/04|RED/GREEN-004|C|✅ concluída|
 |T1.5|Ficha técnica versionada|Engenharia|003|CA-1-02/05|RED/GREEN-005|C|✅ concluída|
-|T1.6|Marcos e tempo ativo|Gestão de dados|004|CA-1-06|RED/GREEN-006|C|☐|
+|T1.6|Marcos e tempo ativo|Gestão de dados|004|CA-1-06|RED/GREEN-006|C|✅ concluída|
 |T1.7|Baseline|Gestão de dados|004|CA-1-07|RED/GREEN-007|D|☐|
 |T1.8|Catálogo|Engenharia|005|CA-1-08|RED/GREEN-008|D|☐|
 |T1.9|Regras e SLA|Engenharia|005|CA-1-09|RED/GREEN-009|E|☐|
