@@ -15,7 +15,7 @@
 | T1.11 | Auditar VOB/OMIE e decisão de fonte | Dados | SPEC-1-006 | CA-1-10 | RED-011/GREEN-011 | matriz de auditoria | T1.1 | B | ✅ concluída |
 | T1.12 | Demonstrar backup, restauração e exportação | Dados | SPEC-1-006 | CA-1-13 | RED-012/GREEN-012 | recibo de restauração + arquivo exportado | T1.1 | B | ✅ concluída |
 | T1.13 | Obter e aprovar modelo real de proposta | Comercial | SPEC-1-007 | CA-1-11 | RED-013/GREEN-013 | modelo aprovado OU recibo de bloqueio com dono/data | T1.5 | D | ✅ concluída 2026-09-19 |
-| T1.14 | Gerar prévia sem preço e prova negativa de envio | Comercial | SPEC-1-007 | CA-1-11 | RED-014/GREEN-014 | PDF/prévia + tentativa de envio negada | T1.7,T1.13 | E | ☐ |
+| T1.14 | Gerar prévia sem preço e prova negativa de envio | Comercial | SPEC-1-007 | CA-1-11 | RED-014/GREEN-014 | PDF/prévia + tentativa de envio negada | T1.7,T1.13 | E | ✅ concluída 2026-09-19 |
 | T1.15 | Validar regressão integrada da Fase 1 | Produto | SPEC-1-001 | CA-1-12, CA-1-14, CA-1-15 e CA-1-16 | REG-001/REG-002 | roteiro integrado e logs | T1.2,T1.4,T1.7,T1.10,T1.12,T1.14 | G | ☐ |
 | T1.16 | Revisar qualidade dos registros de tempo | Gestão de dados | SPEC-1-004 | CA-1-06 e CA-1-07 | REG-003 | relatório semanal assinado | T1.6,T1.7 | E | ☐ |
 | T1.17 | Consolidar recibo da Fase 1 e handoff | Consultor | SPEC-1-006 | Todos CA-1-01..17 demonstrados ou bloqueados com dono | REG-004 | manifesto de evidências e status | T1.10,T1.14,T1.15,T1.16,T1.11 | H | ☐ |
