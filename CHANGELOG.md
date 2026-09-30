@@ -37,3 +37,10 @@
 - 2026-09-19 · Paulo Romeiro · Task T1.15 concluída: regressão integrada REG-001/REG-002 executada com 29/29 provas; QA 0.0.55 passou em setup, análise estática, build, integrações e testes; revogação HTTP 401, CRUD direto HTTP 403, aptidão HTTP 200, baseline HTTP 201/idempotência 200, gates 400/201/200/403, backup 200/409, prévia 201/409; migration 0042 limpou fixtures sintéticas; teste humano no preview aprovado. Achado preservado: modelos aprovados reportam family=geotecnia, inclusive o registro nomeado Poliureia; sem alteração automática.
 - 2026-09-19 · Paulo Romeiro · DEBUG task T1.16: assinatura da revisão semanal retornou erro genérico; causa raiz confirmada no runtime: spread de objeto na resposta da rota foi transpilado para `__spreadValues`, inexistente no JSVM do PocketBase; correção na versão 0.0.58 substituiu o spread por objeto explícito; QA 0.0.58 passou e REDs sem sessão continuaram 401/403; aguardando novo teste humano.
 - 2026-09-19 · Paulo Romeiro · Task T1.16 concluída: revisão semanal server-side assinada implementada na migration 0043 e na coleção protegida `time_quality_reviews`; QA 0.0.58 passou; teste autenticado no preview gerou HTTP 201 e a leitura subsequente HTTP 200; rotas sem sessão HTTP 401 e CRUD direto HTTP 403; teste humano aprovado.
+
+
+## 2026-09-30 — Fase 1 concluída com ressalvas
+
+- A consultora autorizou encerramento administrativo da Fase 1 com ressalvas.
+- CA-1-13/T1.17 permanece tecnicamente não demonstrado; decisão não altera o recibo de auditoria.
+- Pendências não bloqueiam a conclusão administrativa, mas permanecem como gate para cálculo operacional com dados reais na Fase 2.
