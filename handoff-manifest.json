@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "adapta-cliente-handoff/v1",
+  "phase": 2,
+  "versions": {
+    "package": "0.9.5",
+    "adapta": "0.9.5",
+    "adaptaCliente": "0.3.0"
+  },
+  "files": [
+    {
+      "path": "04_fase-atual/README.md",
+      "sha256": "55a16ac06f8c3800dba4f5096a97a29ceb013cd923a653b4c6a304f9d9874e18",
+      "classification": "template-publico"
+    },
+    {
+      "path": "04_fase-atual/fase.md",
+      "sha256": "dc1f9d92035ee19123377889338e7cc2c56adabd2432f6a74b252c44d4b9372d",
+      "classification": "fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/00-INDICE.md",
+      "sha256": "a903406b15715641616650391cc65bf0c70e416443dae88723b4512f210f25be",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-2-001.md",
+      "sha256": "ad276334263680702a4ff9c4ab66631ee9b728803590628e5873fedc36b94894",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-2-002.md",
+      "sha256": "8b0969a1e9103aef5924e5cffed254c34649d9c85d63baf3a33df4e778bd1537",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-2-003.md",
+      "sha256": "6049425e43d738d73f0f4c2c8aef48962ad4d3e1ca717798138235740938812b",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-2-004.md",
+      "sha256": "bd241b7d50637359c579ef64962e98bf79c92be48223cc3d9caa4f41066a3462",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-2-005.md",
+      "sha256": "fbe9b512a08aad10836118155e29faf4ded41447c33a3cfebaa129abf4b792b5",
+      "classification": "spec-fase-atual"
+    }
+  ]
+}

@@ -1,5 +1,13 @@
 # Changelog — Mercogeo
 
+## 2026-09-30
+
+- Kim autorizou a liberação documental da Fase 2.
+- Pacote preparado: cinco SPECs, doze tasks e dez critérios de aceite.
+- Fase 1 arquivada com fechamento pendente; T1.17 segue aberta.
+- Gate SPEC-2-001 exige prova de prontidão antes de cálculo operacional.
+
+
 ## 2026-09-12
 
 - Publicado escopo definitivo e roadmap em cinco fases.

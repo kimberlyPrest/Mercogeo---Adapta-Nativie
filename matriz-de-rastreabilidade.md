@@ -27,3 +27,8 @@
 | F3 | RF-11–RF-16 | CA-3-01–CA-3-11 |
 | F4 | RF-17–RF-22, RF-25 | CA-4-01–CA-4-12 |
 | F5 | RF-23–RF-28 | CA-5-01–CA-5-12 |
+
+
+## Fase 2 — pacote ativo
+
+Consultar `04_fase-atual/matriz-de-rastreabilidade.md`: 12 tasks, 5 SPECs, CA-2-01..10. Fase 1 com fechamento pendente.
