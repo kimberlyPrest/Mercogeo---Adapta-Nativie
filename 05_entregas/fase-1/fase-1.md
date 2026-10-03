@@ -1,6 +1,6 @@
 # Fase 1 — SPECs e Tasks
 
-7 SPECs, 17 CAs e 17 tasks T1.1–T1.17. TDD e fixtures em `ROTEIRO-DE-VALIDACAO.md`. Estado: T1.1 a T1.16 concluídas; 1 task pendente.
+7 SPECs, 17 CAs e 17 tasks T1.1–T1.17. TDD e fixtures em `ROTEIRO-DE-VALIDACAO.md`. Estado: T1.1 a T1.17 concluídas (17/17). Fechamento definitivo da fase pendente da validação da consultora (encerramento administrativo de 30/09 com ressalvas preservadas no recibo).
 
 Levas: A=T1.1; B=T1.2,T1.3,T1.11,T1.12; C=T1.4,T1.5,T1.6; D=T1.7,T1.8,T1.13; E=T1.9,T1.14,T1.16; F=T1.10; G=T1.15; H=T1.17.
 
@@ -22,4 +22,4 @@ Levas: A=T1.1; B=T1.2,T1.3,T1.11,T1.12; C=T1.4,T1.5,T1.6; D=T1.7,T1.8,T1.13; E=T
 |T1.14|Prévia sem preço|Comercial|007|CA-1-11|RED/GREEN-014|E|✅ concluída 2026-09-19|
 |T1.15|Regressão integrada|Produto|001|CA-1-12/14/15/16|REG-001/002|G|✅ concluída 2026-09-19|
 |T1.16|Qualidade do tempo|Gestão de dados|004|CA-1-06/07|REG-003|E|✅ concluída 2026-09-19|
-|T1.17|Recibo/handoff|Consultor|006|CA-1-01..17|REG-004|H|☐|
+|T1.17|Recibo/handoff|Consultor|006|CA-1-01..17|REG-004|H|✅ concluída 2026-10-03 — recibo com 16 CAs demonstrados e CA-1-13 parcial/bloqueado (BLK-1..4)|

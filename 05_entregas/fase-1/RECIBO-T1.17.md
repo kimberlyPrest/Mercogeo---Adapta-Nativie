@@ -3,7 +3,7 @@
 - **Data:** 2026-10-03
 - **Elaborado por:** Merco IA, assistente do champion Paulo Romeiro, sob autorização de 2026-10-03 14:11 ("Sim, pode implementar a T1.17")
 - **Prova:** REG-004 — manifesto de evidências CA-1-01..17 e status
-- **Fechamento:** PENDENTE DE DECISÃO DO CHAMPION (registro de 2026-10-03 14:10 — o champion decide o destino da task após ver o recibo)
+- **Fechamento:** recibo testado e aprovado pelo champion em 2026-10-03 14:29 ("Testei o recibo da T1.17 e aprovou"); T1.17 concluída com bloqueios justificados
 
 ## Escopo e método
 
@@ -59,5 +59,5 @@ Task documental: nenhum código, migration ou coleção foi alterado.
 
 ## Status do fechamento
 
-- Fase 1: encerrada administrativamente com ressalvas (Kim, 30/09) — decisão preservada.
-- T1.17: recibo entregue; fechamento da task **pendente de decisão do champion** (não concluída automaticamente).
+- Fase 1: encerrada administrativamente com ressalvas (Kim, 30/09) — decisão preservada; fechamento definitivo pendente da validação da consultora.
+- T1.17: recibo entregue, testado e aprovado pelo champion (2026-10-03 14:29); task concluída com bloqueios justificados (BLK-1..4 registrados com dono e data).
