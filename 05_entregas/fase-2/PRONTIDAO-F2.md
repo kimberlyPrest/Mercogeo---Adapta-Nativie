@@ -3,21 +3,28 @@
 - **Data:** 2026-10-03
 - **Elaborado por:** Merco IA, assistente do champion Paulo Romeiro, sob autorização de 2026-10-03 15:10 ("Sim, pode implementar a T2.1")
 - **Prova:** GREEN-P2-001 — recibo de prontidão e fontes
-- **SPEC:** `04_fase-atual/specs/spec-2-001.md` · **Handoff recebido:** `05_entregas/fase-1/RECIBO-T1.17.md` (BLK-1..4)
+- **SPEC:** `04_fase-atual/specs/spec-2-001.md` · **Handoff recebido:** [RECIBO-T1.17.md](../../fase-1/RECIBO-T1.17.md) (BLK-1..4)
 - **Gate de cálculo operacional:** 🔒 **BLOQUEADO** — nenhuma pendência resolvida ainda; nada é ativação, nenhuma prova simulada é declarada real
 
 ## Contrato
 
 Recibo de prontidão que distingue **autorização documental** (Kim, 30/09), **prova técnica** e **homologação real**. Cada dependência tem status, prova exigida, dono e vínculo verificável — nunca texto autodeclarado. Este registro **não** encerra a T1.17 nem comprova os CAs faltantes da Fase 1: ele estrutura onde essas provas devem chegar.
 
+## Anexos — templates de prova
+
+- [TEMPLATE-A — piloto/SLA (RN-21 / BLK-2)](templates/TEMPLATE-A-piloto-sla.md) — dono: Engenharia
+- [TEMPLATE-B — baseline/parecer (RN-22 / BLK-3)](templates/TEMPLATE-B-baseline-parecer.md) — dono: Engenharia
+- [TEMPLATE-C — recuperação real (CA-1-13 / BLK-1)](templates/TEMPLATE-C-recuperacao-real.md) — dono: Dados
+- [TEMPLATE-D — família/fixture (BLK-4)](templates/TEMPLATE-D-familia-fixture.md) — donos: Comercial + Engenharia
+
 ## Painel de prontidão
 
 | Dependência | Origem | Status | Prova exigida | Dono | Vínculo verificável |
 |---|---|---|---|---|---|
-| RN-21 · decisão piloto/SLA | BLK-2 | ⬜ PENDENTE | Decisão de piloto + SLA homologados com ata/evidência (template A) | Engenharia | `05_entregas/fase-2/templates/TEMPLATE-A-piloto-sla.md` · estrutura T1.9 (QA 0.0.35) |
-| RN-22 · baseline comparável | BLK-3 | ⬜ PENDENTE | Baseline congelado sobre dados reais (T1.7) ou parecer explícito de limitação (template B) | Engenharia | `05_entregas/fase-2/templates/TEMPLATE-B-baseline-parecer.md` · baseline T1.7 (QA 0.0.29) |
-| CA-1-13 · recuperação real | BLK-1 | ⬜ PENDENTE | Backup completo (dados, anexos, configuração) + restauração em instância isolada + comparação antes/depois (template C) | Dados | `05_entregas/fase-2/templates/TEMPLATE-C-recuperacao-real.md` · backup T1.12 (QA 0.0.46) |
-| Família-piloto e fixture | BLK-4 | ⬜ PENDENTE | Resolução ou exclusão justificada do modelo Poliureia/geotecnia + fixture assinada (template D) | Comercial + Engenharia | `05_entregas/fase-2/templates/TEMPLATE-D-familia-fixture.md` · achado T1.15 (family=geotecnia nos 2 modelos) |
+| RN-21 · decisão piloto/SLA | BLK-2 | ⬜ PENDENTE | Decisão de piloto + SLA homologados com ata/evidência ([template A](templates/TEMPLATE-A-piloto-sla.md)) | Engenharia | [TEMPLATE-A-piloto-sla.md](templates/TEMPLATE-A-piloto-sla.md) · estrutura T1.9 (QA 0.0.35) |
+| RN-22 · baseline comparável | BLK-3 | ⬜ PENDENTE | Baseline congelado sobre dados reais (T1.7) ou parecer explícito de limitação ([template B](templates/TEMPLATE-B-baseline-parecer.md)) | Engenharia | [TEMPLATE-B-baseline-parecer.md](templates/TEMPLATE-B-baseline-parecer.md) · baseline T1.7 (QA 0.0.29) |
+| CA-1-13 · recuperação real | BLK-1 | ⬜ PENDENTE | Backup completo (dados, anexos, configuração) + restauração em instância isolada + comparação antes/depois ([template C](templates/TEMPLATE-C-recuperacao-real.md)) | Dados | [TEMPLATE-C-recuperacao-real.md](templates/TEMPLATE-C-recuperacao-real.md) · backup T1.12 (QA 0.0.46) |
+| Família-piloto e fixture | BLK-4 | ⬜ PENDENTE | Resolução ou exclusão justificada do modelo Poliureia/geotecnia + fixture assinada ([template D](templates/TEMPLATE-D-familia-fixture.md)) | Comercial + Engenharia | [TEMPLATE-D-familia-fixture.md](templates/TEMPLATE-D-familia-fixture.md) · achado T1.15 (family=geotecnia nos 2 modelos) |
 
 **Resumo:** 0/4 resolvidas · 4 pendentes com dono e prova exigida · gate permanece fechado até todas chegarem.
 
@@ -40,3 +47,7 @@ Recibo de prontidão que distingue **autorização documental** (Kim, 30/09), **
 - Conferência cruzada: cada vínculo aponta para prova existente no repo (recibo T1.17, changelog, matrizes, SPEC-2-001).
 - Task documental: sem código, sem migration; QA de build não aplicável.
 - Sem tokens, senhas ou dados pessoais (LGPD).
+
+## Debug registrado
+
+- 2026-10-03 · Paulo Romeiro · DEBUG task T2.1: templates não visíveis a partir do recibo (referências como caminho em texto não navegável) → causa raiz confirmada → corrigido com links clicáveis e seção de anexos.
