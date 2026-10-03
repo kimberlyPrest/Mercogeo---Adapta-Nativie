@@ -1,5 +1,9 @@
 # Changelog — Mercogeo
 
+## 2026-10-03
+
+- Paulo Romeiro · Task T1.17 (recibo/handoff F1, REG-004) implementada: recibo consolidado em `05_entregas/fase-1/RECIBO-T1.17.md` com manifesto CA-1-01..17 (16 demonstrados, CA-1-13 parcial/bloqueado), bloqueios BLK-1..4 com dono/data e handoff para a T2.1; STATUS.md atualizado; fechamento da T1.17 pendente de decisão do champion (registro de 14:10 de 2026-10-03). Task documental — sem código, sem migration.
+
 ## 2026-09-30
 
 - Kim autorizou a liberação documental da Fase 2.
