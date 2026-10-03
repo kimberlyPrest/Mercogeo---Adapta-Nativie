@@ -33,8 +33,8 @@ Executar uma fixture homologada e uma oportunidade real, explicar cada parcela d
 
 | ID | Task | Dono | SPEC | Critério | Subseção | Recorte da prova | Evidência esperada | Pré-condições | Leva | Ponto de parada | Status |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| T2.1 | Consolidar prontidão e contratos reais | Consultor | SPEC-2-001 | RN-21/RN-22/CA-1-13 | Fechamento de dependências | GREEN-P2-001 | recibo e homologações | autorização documental | A | GREEN + regressão → teste humano explícito | pendente |
-| T2.2 | Exibir e proteger gate de prontidão por família | Produto | SPEC-2-001 | Pré-condições F2 | Dados, fluxo e regras | RED/GREEN/REG-P2-001 | logs gate e papéis | T2.1 | B | GREEN + regressão → teste humano explícito | bloqueada |
+| T2.1 | Consolidar prontidão e contratos reais | Consultor | SPEC-2-001 | RN-21/RN-22/CA-1-13 | Fechamento de dependências | GREEN-P2-001 | recibo e homologações | autorização documental | A | GREEN + regressão → teste humano explícito | ✅ concluída 2026-10-03 — recibo de prontidão GREEN-P2-001 entregue e aprovado (0/4 dependências resolvidas; gate bloqueado) |
+| T2.2 | Exibir e proteger gate de prontidão por família | Produto | SPEC-2-001 | Pré-condições F2 | Dados, fluxo e regras | RED/GREEN/REG-P2-001 | logs gate e papéis | T2.1 | B | GREEN + regressão → teste humano explícito | pendente |
 | T2.3 | Criar rascunho versionado de composição | Produto | SPEC-2-002 | CA-2-01/10 | Dados e contrato | RED/GREEN-P2-002A | versões e negação por papel | desenvolvimento isolado; contrato sintético | A | GREEN + regressão → teste humano explícito | pendente |
 | T2.4 | Homologar e filtrar versões utilizáveis | Engenharia | SPEC-2-002 | CA-2-01/02/10 | Estados e ações | GREEN-P2-002B/REG-P2-002 | catálogo e assinatura | T2.1,T2.3 | B | GREEN + regressão → teste humano explícito | bloqueada |
 | T2.5 | Demonstrar aritmética e bloqueios com massa sintética | Produto | SPEC-2-003 | CA-2-03/04 | Aritmética e segurança | RED/GREEN-P2-003A | suite precisão JSVM e memória sintética | T2.3; runner real | B | GREEN + regressão → teste humano explícito | bloqueada |
