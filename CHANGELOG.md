@@ -4,6 +4,7 @@
 
 - 2026-10-03 · Paulo Romeiro · Task T1.17 concluída: recibo REG-004 (`05_entregas/fase-1/RECIBO-T1.17.md`) entregue, testado e aprovado pelo champion; manifesto CA-1-01..17 com 16 CAs demonstrados e CA-1-13 parcial/bloqueado (BLK-1..4 com dono/data); handoff para a T2.1; fase-1.md 17/17; task documental — sem código, sem migration. Fechamento definitivo da Fase 1 pendente da validação da consultora.
 - Paulo Romeiro · Task T1.17 (recibo/handoff F1, REG-004) implementada: recibo consolidado em `05_entregas/fase-1/RECIBO-T1.17.md` com manifesto CA-1-01..17 (16 demonstrados, CA-1-13 parcial/bloqueado), bloqueios BLK-1..4 com dono/data e handoff para a T2.1; STATUS.md atualizado; fechamento da T1.17 pendente de decisão do champion (registro de 14:10 de 2026-10-03). Task documental — sem código, sem migration.
+- 2026-10-03 · Paulo Romeiro · Task T2.1 (prontidão F2, GREEN-P2-001) implementada: recibo de prontidão em `05_entregas/fase-2/PRONTIDAO-F2.md` — painel das 4 dependências (RN-21, RN-22, CA-1-13, família/fixture) espelhando BLK-1..4, com status, prova exigida, dono e vínculos verificáveis; templates A–D para os responsáveis (Engenharia, Dados, Comercial+Engenharia); gate de cálculo operacional permanece BLOQUEADO (0/4 resolvidas); STATUS.md atualizado (F2: 1/12 em teste humano); task documental — sem código, sem migration. Aguardando teste humano.
 
 ## 2026-09-30
 
