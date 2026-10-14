@@ -1,5 +1,13 @@
 # Changelog — Mercogeo
 
+## 2026-10-14 — Fase 2 expandida
+
+- Análise de coerência da Fase 2 contra PRD, escopo e sistema (v0.0.71). Foram encontradas lacunas: unidades/dimensões, vínculo ficha→composição, autoria da fórmula sem JSON, fixture apenas referenciada, solução com várias composições, consolidação por recurso, painel de pendências (RF-09) e memória exportável (RNF-08).
+- Novas SPEC-2-006 (área de trabalho por módulo), SPEC-2-007 (contrato de cálculo montado pela Engenharia) e SPEC-2-008 (solução técnica, quantitativos e pendências); CA-2-11..16.
+- Novas tasks T2.13–T2.29, incluindo uma task por bloqueio BLK-1..4 (T2.24–T2.28) e a aprovação do gate (T2.29).
+- Emendas append-only nas SPEC-2-001, 2-003 e 2-005; nenhum critério anterior foi alterado.
+- Achado da v0.0.71 (sidebar): a correção de `errors.ts` da T2.3 (0.0.69) foi revertida e as funções F1/F2 ficaram sem link no menu (`/painel-tecnico`). Tratado por T2.13–T2.15.
+
 ## 2026-10-03
 
 - 2026-10-03 · Paulo Romeiro · Task T2.2 concluída: gate de prontidão por família — migration 0044 (phase2_readiness com CRUD direto negado), hook dimensioning_readiness.js (GET com motivo por pendência; POST approve só Engenharia/Admin, valida vínculos reais e nega 409 com pendências), serviço dimensioning.ts, card de prontidão no Dashboard, suíte real vitest substituindo o placeholder; QA 0.0.59–0.0.64 passou; provas RED/GREEN/REG-P2-001 10/10 via API real + revalidação independente 6/6; invalidação real provada pela migration 0046 (vínculo deletado → gate 'invalidado' com registro anterior preservado); teste humano no preview aprovado (badge INVALIDADO com motivo RN-21; formulário visível para Engenharia e ausente para Comercial com 403 server-side); evidências em `05_entregas/fase-2/evidencias/t2-2/`. Fase 2: 2/12.

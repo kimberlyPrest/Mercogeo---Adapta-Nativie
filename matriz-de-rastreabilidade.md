@@ -23,7 +23,7 @@
 | Fase | RFs dominantes | CAs |
 |---|---|---|
 | F1 | RF-01–RF-06, RF-18–RF-19 (prévia parcial), RF-23, RF-26 | CA-1-01–CA-1-17 |
-| F2 | RF-05–RF-10, RF-21 | CA-2-01–CA-2-10 |
+| F2 | RF-05–RF-10, RF-21; RNF-05, RNF-08 | CA-2-01–CA-2-16 |
 | F3 | RF-11–RF-16 | CA-3-01–CA-3-11 |
 | F4 | RF-17–RF-22, RF-25 | CA-4-01–CA-4-12 |
 | F5 | RF-23–RF-28 | CA-5-01–CA-5-12 |
@@ -31,4 +31,15 @@
 
 ## Fase 2 — pacote ativo
 
-Consultar `04_fase-atual/matriz-de-rastreabilidade.md`: 12 tasks, 5 SPECs, CA-2-01..10. Fase 1 com fechamento pendente.
+Consultar `04_fase-atual/fase.md` (tabela Tasks) e as SPECs: 29 tasks, 8 SPECs, CA-2-01..16 (expansão 14/10/2026). Fase 1 concluída administrativamente com ressalvas BLK-1..4.
+
+| CA | SPEC | Tasks |
+|---|---|---|
+| CA-2-01/02/10 | SPEC-2-002 | T2.3, T2.4 |
+| CA-2-03/04/05 | SPEC-2-003 | T2.5, T2.6, T2.7 |
+| CA-2-06/07/08 | SPEC-2-004 | T2.8, T2.9, T2.10 |
+| CA-2-09 + aceite | SPEC-2-005 | T2.11, T2.12 |
+| CA-2-11 | SPEC-2-006 | T2.13, T2.14, T2.15 |
+| CA-2-12/13 | SPEC-2-007 | T2.16–T2.19 |
+| CA-2-14/15/16 | SPEC-2-008 | T2.20–T2.23 |
+| RN-21/RN-22/CA-1-13 (gate) | SPEC-2-001 | T2.1, T2.2, T2.24–T2.29 |

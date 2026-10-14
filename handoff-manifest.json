@@ -14,37 +14,52 @@
     },
     {
       "path": "04_fase-atual/fase.md",
-      "sha256": "dc1f9d92035ee19123377889338e7cc2c56adabd2432f6a74b252c44d4b9372d",
+      "sha256": "398f338ea1353646e6b53628b9e034c5775164c7dc4c30504deaf4f576fd78f1",
       "classification": "fase-atual"
     },
     {
       "path": "04_fase-atual/specs/00-INDICE.md",
-      "sha256": "a903406b15715641616650391cc65bf0c70e416443dae88723b4512f210f25be",
+      "sha256": "ea32f0f57fd7c0dd1afcc6cd6ad19fcb2265297f26277ec73b32baf7da187489",
       "classification": "spec-fase-atual"
     },
     {
       "path": "04_fase-atual/specs/spec-2-001.md",
-      "sha256": "ad276334263680702a4ff9c4ab66631ee9b728803590628e5873fedc36b94894",
+      "sha256": "7cb5c740e9c83e6648f41eabf3d5a950ffe71e4d9f592619df4137b43a9e43fd",
       "classification": "spec-fase-atual"
     },
     {
       "path": "04_fase-atual/specs/spec-2-002.md",
-      "sha256": "8b0969a1e9103aef5924e5cffed254c34649d9c85d63baf3a33df4e778bd1537",
+      "sha256": "b432bb311abe53232aeb753ab2215a2a834c7250b96086625e8dd534ba61588b",
       "classification": "spec-fase-atual"
     },
     {
       "path": "04_fase-atual/specs/spec-2-003.md",
-      "sha256": "6049425e43d738d73f0f4c2c8aef48962ad4d3e1ca717798138235740938812b",
+      "sha256": "4cb3c8ad18e8e41a36ac5e9d2c9153f3f336aa9fe6ce93a6f45631cfd7998f4d",
       "classification": "spec-fase-atual"
     },
     {
       "path": "04_fase-atual/specs/spec-2-004.md",
-      "sha256": "bd241b7d50637359c579ef64962e98bf79c92be48223cc3d9caa4f41066a3462",
+      "sha256": "3933f06be8878c5167effc6e3ca9c2f9a09f8b2e8b89563f6e0b046d3cb1748a",
       "classification": "spec-fase-atual"
     },
     {
       "path": "04_fase-atual/specs/spec-2-005.md",
-      "sha256": "fbe9b512a08aad10836118155e29faf4ded41447c33a3cfebaa129abf4b792b5",
+      "sha256": "31f3bab82ecea89bf91e472f6c1f3926d6ed46b86a36b4ef18ac828ead20320b",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-2-006.md",
+      "sha256": "b04c5e7e624f70de76ff1abe7674dd53836c535b2fc12c777d889a182fc64d04",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-2-007.md",
+      "sha256": "0851a9d566e4fe0faa8dcc6e86e654d3a701f623d5bce87006b24ee457c4e242",
+      "classification": "spec-fase-atual"
+    },
+    {
+      "path": "04_fase-atual/specs/spec-2-008.md",
+      "sha256": "46ced0920cbfcaa5cfb58dd2b66d4a0140da67e53750428e3dde392ab1a934c0",
       "classification": "spec-fase-atual"
     }
   ]
