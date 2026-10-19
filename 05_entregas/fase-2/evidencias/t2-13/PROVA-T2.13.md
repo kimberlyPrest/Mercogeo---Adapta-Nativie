@@ -42,19 +42,20 @@ Login qa.engenharia@mercogeo.com.br → /painel-tecnico → seção "Biblioteca 
 Setup: item de catálogo sintético (geotecnia, tipo composicao, id `im6n9uakjgnzycu`) e composição
 v1 `COMP-T213-01` (id `hzk2wr5ce9dd56y`, HTTP 201). Submissão do formulário com o MESMO código:
 
-- Alerta exibido (`[role=alert]`, confirmado por DOM e captura de tela):
+- Alerta exibido (`[role=alert]`, texto lido do DOM duas vezes após o submit):
   **"Código já existe para esta família; revisão cria nova versão via /revise."**
 - Sem "Something went wrong." — motivo real do servidor (corpo do 409 do hook
   `composition_versions.js`: `{error, reason: "code_duplicated"}`).
 - Lista permanece com uma única versão (sem duplicata).
-- Captura: `t2-13-409-motivo-real.png` (artefato da sessão; alerta no topo da seção Biblioteca).
+- Confirmação visual final do alerta em quadro fica para o teste humano do champion (a captura da
+  sessão do assistente enquadrou a seção parcialmente; a prova de texto do DOM está registrada acima).
 
 ## Matriz critério → prova
 
 | Critério | Prova | Resultado |
 |---|---|---|
 | CA-2-11 (erros de negócio exibem o motivo real) | RED-P2-006A | falha documentada na 0.0.71 (2/7) |
-| CA-2-11 (erros de negócio exibem o motivo real) | GREEN-P2-006A | 7/7 local + 409 com motivo real no preview |
+| CA-2-11 (erros de negócio exibem o motivo real) | GREEN-P2-006A | 7/7 local + 409 com motivo real no preview (DOM) |
 
 ## Recorte
 
