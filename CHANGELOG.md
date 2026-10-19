@@ -1,5 +1,9 @@
 # Changelog — Mercogeo
 
+## 2026-10-19
+
+- 2026-10-19 · Paulo Romeiro · Task T2.13 implementada (aguardando teste humano): restaurada a leitura de corpos de negócio em `getErrorMessage` (`src/lib/pocketbase/errors.ts`) revertida na v0.0.71 — agora lê `error.response.error`/`error.response.message` antes do fallback, preserva field-errors nativos, deduplica partes e só usa mensagem genérica sem corpo legível (regra 5 da SPEC-2-006); suíte nova `src/lib/pocketbase/errors.test.ts` com 7 provas (409 `{error}`, `{message}`, `{error}`+`{message}`, field-errors, sem corpo, erro comum, não-Error); RED-P2-006A documentado na 0.0.71 (2 failed | 5 passed — "Something went wrong." reproduzido); GREEN 7/7 local com SDK pocketbase 0.26.9 (mesma versão do projeto); QA 0.0.72–0.0.73 passou (setup, estática, build, integrações) com etapa de testes pulada pela plataforma (`ran: false`, limitação registrada); 409 da Biblioteca exibindo o motivo real provado no preview via DOM ("Código já existe para esta família; revisão cria nova versão via /revise."); evidências em `05_entregas/fase-2/evidencias/t2-13/`. Revalidação do passo 4 da T2.3 vinculada a esta prova (STATUS de 14/10).
+
 ## 2026-10-14 — Fase 2 expandida
 
 - Análise de coerência da Fase 2 contra PRD, escopo e sistema (v0.0.71). Foram encontradas lacunas: unidades/dimensões, vínculo ficha→composição, autoria da fórmula sem JSON, fixture apenas referenciada, solução com várias composições, consolidação por recurso, painel de pendências (RF-09) e memória exportável (RNF-08).
