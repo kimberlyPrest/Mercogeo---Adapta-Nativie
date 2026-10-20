@@ -9,58 +9,99 @@
   "files": [
     {
       "path": "04_fase-atual/README.md",
-      "sha256": "55a16ac06f8c3800dba4f5096a97a29ceb013cd923a653b4c6a304f9d9874e18",
-      "classification": "template-publico"
+      "classification": "template-publico",
+      "sha256": "55a16ac06f8c3800dba4f5096a97a29ceb013cd923a653b4c6a304f9d9874e18"
+    },
+    {
+      "path": "04_fase-atual/contrato-experiencia.md",
+      "classification": "template-publico",
+      "sha256": "6bdd14b9dcb290bbf7ca83368fd7ec79f8540434f9adb69b00430d2204609aac"
     },
     {
       "path": "04_fase-atual/fase.md",
-      "sha256": "398f338ea1353646e6b53628b9e034c5775164c7dc4c30504deaf4f576fd78f1",
-      "classification": "fase-atual"
+      "classification": "fase-atual",
+      "sha256": "0ab01e7c6691d01b1740b92eceabfd897b87247bd04f18e48e69d6a2c5d26bc1"
+    },
+    {
+      "path": "04_fase-atual/inventario-superficies.md",
+      "classification": "template-publico",
+      "sha256": "183e7ef26126465fb74e801c1c2008d88032d3606655d8a64ba0d8c24f5316e8"
+    },
+    {
+      "path": "04_fase-atual/roteiro-validacao-ux.md",
+      "classification": "template-publico",
+      "sha256": "d183717ccb6ee8984078174a98d4ec7b9f3962ecd2b60bc0ea53af53712abef1"
     },
     {
       "path": "04_fase-atual/specs/00-INDICE.md",
-      "sha256": "ea32f0f57fd7c0dd1afcc6cd6ad19fcb2265297f26277ec73b32baf7da187489",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "ea32f0f57fd7c0dd1afcc6cd6ad19fcb2265297f26277ec73b32baf7da187489"
     },
     {
       "path": "04_fase-atual/specs/spec-2-001.md",
-      "sha256": "7cb5c740e9c83e6648f41eabf3d5a950ffe71e4d9f592619df4137b43a9e43fd",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "00c332be6f0f6736287592c7d6a3ba3c4d5621e7d803a3b4f5888ede57b9fe93"
     },
     {
       "path": "04_fase-atual/specs/spec-2-002.md",
-      "sha256": "b432bb311abe53232aeb753ab2215a2a834c7250b96086625e8dd534ba61588b",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "39385c98e558a031e54615777fe5ee7895a2b16349a31e4a3c4d541efbe7d292"
     },
     {
       "path": "04_fase-atual/specs/spec-2-003.md",
-      "sha256": "4cb3c8ad18e8e41a36ac5e9d2c9153f3f336aa9fe6ce93a6f45631cfd7998f4d",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "e06e89efa62e19b743b16ef7b528dfb4b8bc43d77a2b9e53ce60be45fe426a0b"
     },
     {
       "path": "04_fase-atual/specs/spec-2-004.md",
-      "sha256": "3933f06be8878c5167effc6e3ca9c2f9a09f8b2e8b89563f6e0b046d3cb1748a",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "02f2e411bc64a044c007d379523d12f12a9cd8dadcca6a0fb693223d78629760"
     },
     {
       "path": "04_fase-atual/specs/spec-2-005.md",
-      "sha256": "31f3bab82ecea89bf91e472f6c1f3926d6ed46b86a36b4ef18ac828ead20320b",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "a33c58a401230c7d5b6d75de195e6034fb580dd27ba22c2834a02f15bb9c34f7"
     },
     {
       "path": "04_fase-atual/specs/spec-2-006.md",
-      "sha256": "b04c5e7e624f70de76ff1abe7674dd53836c535b2fc12c777d889a182fc64d04",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "65a225bef1186189a904eb788a4568c722e6d6bed343e986764ac0b6bd1dee51"
     },
     {
       "path": "04_fase-atual/specs/spec-2-007.md",
-      "sha256": "0851a9d566e4fe0faa8dcc6e86e654d3a701f623d5bce87006b24ee457c4e242",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "ed1203412bb30d8604229b285ebb4878d44b7aff4d998c321a632359a9cd59d5"
     },
     {
       "path": "04_fase-atual/specs/spec-2-008.md",
-      "sha256": "46ced0920cbfcaa5cfb58dd2b66d4a0140da67e53750428e3dde392ab1a934c0",
-      "classification": "spec-fase-atual"
+      "classification": "spec-fase-atual",
+      "sha256": "e273d94bf65ee03fc09a4f27fd75c648923ba909d1bf7a92baa529ca7e8f5ffc"
+    },
+    {
+      "path": "CLAUDE.md",
+      "classification": "template-publico",
+      "sha256": "b8982dbae4aae3b74620eadb2cb03ecbbfba14201455e45e4119b4d963e9cc0f"
+    },
+    {
+      "path": "STATUS.md",
+      "classification": "template-publico",
+      "sha256": "f22a341f98356be9a9aaa6afebade9e4825e0bf1f8847d5ff5a44f7ca8305204"
+    },
+    {
+      "path": "changelog.md",
+      "classification": "template-publico",
+      "sha256": "26ea55b020c3a68bbf6d875dd21c0169a8c28bfef69ee0fccf94f4343ea2ff22"
+    },
+    {
+      "path": "matriz-de-rastreabilidade.md",
+      "classification": "template-publico",
+      "sha256": "8b1685fafcde860e1ba49321d1a1db06b927311286e9b9ae3e19f02c5a458db1"
     }
-  ]
+  ],
+  "revision": {
+    "date": "2026-10-20",
+    "kind": "jornada-ux-documental",
+    "authorizedBy": "Kim",
+    "sourceCommit": "f53368217c806a8e4d54bdb831de22200a64491a"
+  }
 }
