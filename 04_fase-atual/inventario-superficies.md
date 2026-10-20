@@ -4,11 +4,11 @@
 
 | Superfície atual | Destino de produto proposto | Task responsável | Regra de preservação |
 |---|---|---|---|
-| Nova demanda / demandas criadas | Oportunidades e detalhe | T2.31 | Mesmos registros/aptidão; sem criar novo CRM |
+| Nova demanda / demandas criadas | Oportunidades e e detalhe | Oportunidades e detalhe | Mesmos registros/aptidão; sem criar novo CRM |
 | Prontidão da Fase 2 | Prontidão da família | T2.34 | Gate real no servidor; sem aceite presumido |
 | Biblioteca de composições | Biblioteca técnica | T2.15 / T2.33 | Extrair biblioteca antes de mudar editor; não duplicar estado |
 | Backup e exportação | Administração — recuperação/evidências | T2.36 | Entrada contextual para seção existente; sem apagar recibos/provas |
-| Modelos reais de proposta | Administração — modelos | T2. após | Manter homologação e acesso existentes; sem antecipar proposta com preço |
+| Modelos reais de proposta | Administração — modelos | T2.36 | Manter homologação e acesso existentes; sem antecipar proposta com preço |
 | Prévia de proposta sem preço | Administração — modelos/prévia | T2.36 | Preservar função F1 e envio negado; não sumir nem virar proposta comercial ativa |
 | Auditoria VOBI/OMIE | Administração — auditoria de fontes | T2.36 | Preservar auditoria existente; não construir conectores produtivos |
 | Gates e cortes | Administração — controles | T2.36 | Guardas permanecem reais; visibilidade segue política vigente |
