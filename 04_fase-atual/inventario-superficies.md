@@ -4,7 +4,7 @@
 
 | Superfície atual | Destino de produto proposto | Task responsável | Regra de preservação |
 |---|---|---|---|
-| Nova demanda / demandas criadas | Oportunidades e e detalhe | Oportunidades e detalhe | Mesmos registros/aptidão; sem criar novo CRM |
+| Nova demanda / demandas criadas | Oportunidades e detalhe | T2.31 | Mesmos registros/aptidão; sem criar novo CRM |
 | Prontidão da Fase 2 | Prontidão da família | T2.34 | Gate real no servidor; sem aceite presumido |
 | Biblioteca de composições | Biblioteca técnica | T2.15 / T2.33 | Extrair biblioteca antes de mudar editor; não duplicar estado |
 | Backup e exportação | Administração — recuperação/evidências | T2.36 | Entrada contextual para seção existente; sem apagar recibos/provas |
