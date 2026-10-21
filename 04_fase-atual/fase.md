@@ -58,7 +58,7 @@ Kim aprovou a reformulação documental e sua publicação em 20/10. As tasks T2
 
 CA-2-11 é alterado explicitamente somente no recorte administrativo: superfícies centrais extraídas; funções administrativas existentes acessíveis por índice contextual, sem perda de função/controle. Não exigir extrair todo painel em uma sessão. Extrações adicionais exigem recorte próprio. Critérios UX-F2-001..008 e cenários estão nos aditivos de cada SPEC, no contrato de experiência e no roteiro de validação.
 
-Próxima sequência: ler o novo contrato, conferir versão/fonte/consultas seguras; finalizar o aceite próprio T2.3 sem homologar manualmente; executar T2.14 após conferir direção T2.30; depois o recorte mínimo T2.15. Uma task por vez e teste humano explícito antes de avançar. T2.24/T2.27 são trabalhos de domínio em paralelo, não funcionalidades a implementar.
+Próxima sequência: T2.3 e T2.14 concluídas; apresentar o recorte mínimo da T2.15 e aguardar pedido/autorização explícitos do champion. Uma task por vez e teste humano explícito antes de avançar. T2.24/T2.27 são trabalhos de domínio em paralelo, não funcionalidades a implementar.
 
 T2.29 conserva somente vínculos suportados pelo gate existente; T2.28 é evidência documental obrigatória. Fixture executada/assinada na versão exata também é exigida pelos contratos de composição/cálculo, não inventada como campo de phase2_readiness. A aprovação do gate não dispensa homologação da composição. Gate de domínio pode usar UI existente sem esperar redesign T2.34.
 
@@ -83,7 +83,7 @@ T2.19 executa caso de referência antes de T2.4; T2.22 entrega guard antes de T2
 | T2.11 | Demonstrar a jornada com oportunidade real autorizada | Engenharia Mercogeo | SPEC-2-005 | CA-2-09; UX-F2-005 | Após gate e homologações reais atuais, responsável percorre ficha → solução → revisão com memória do sistema; declara planilha apenas como conferência e registra falhas sem corrigi-las silenciosamente. | GREEN-P2-005 + UX-005-REAL | evidencias/T2.11/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.10, T2.23, T2.29, T2.35 | bloqueada até concluir pré-condições; uma task por vez |
 | T2.12 | Consolidar aceite técnico e de experiência da Fase 2 | Consultor | SPEC-2-005 | Aceite integrado SPEC-2-005; CA-2-01..16 e critérios UX aprovados na emenda | Consultor consolida matriz integral com esperado/obtido, versão, evidência e aprovador para critérios originais e somente UX expressamente aprovados; falha ou critério não medido impede fechamento. É cerimônia de aceite, não task de implementação nem liberação da fase seguinte. | RED/REG-P2-005 + UX-005-REG | evidencias/T2.12/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.11, T2.35, T2.36 | bloqueada até concluir pré-condições; uma task por vez |
 | T2.13 | Preservar correção e aceite das mensagens de negócio | Produto | SPEC-2-006 | CA-2-11 | Preservar o aceite da T2.13 no STATUS; ao sincronizar versões, executar sua suíte sem reabrir aceite automaticamente; correção não encerra T2.3. | RED/GREEN-P2-006A | evidencias/T2.13/: versão, esperado/obtido, prova nomeada e aceite do validador | gates gerais | concluída — histórico preservado; T2.13 reconciliada em f533682 |
-| T2.14 | Encontrar módulos reais no menu conforme o papel | Produto | SPEC-2-006 | CA-2-11; UX-F2-006 | Cada função entregue tem acesso permitido, sem placeholders CRM/indicadores falsos; links levam a áreas existentes e URL antiga tem retorno seguro. Onde não extraído, abrir seção existente com contexto, sem perder função. | RED/GREEN-P2-006B + UX-006-NAV | evidencias/T2.14/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.30, T2.13 | bloqueada até concluir pré-condições; uma task por vez |
+| T2.14 | Encontrar módulos reais no menu conforme o papel | Produto | SPEC-2-006 | CA-2-11; UX-F2-006 | Cada função entregue tem acesso permitido, sem placeholders CRM/indicadores falsos; links levam a áreas existentes e URL antiga tem retorno seguro. Onde não extraído, abrir seção existente com contexto, sem perder função. | RED/GREEN-P2-006B + UX-006-NAV | evidencias/T2.14/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.30, T2.13 | concluída 2026-10-21 — champion confirmou os cinco cenários; recibo `05_entregas/fase-2/evidencias/t2-14/ACEITE-T2.14.md` |
 | T2.15 | Abrir Biblioteca em página própria preservando o contrato | Produto | SPEC-2-006 | CA-2-11; UX-F2-006 | Extrair somente a Biblioteca de composições para rota própria com os mesmos serviços, estados e papéis; criar/reabrir rascunho e erro de duplicidade funcionam sem painel inteiro. Mapa indica T2.31 para demandas, T2.32 para ficha, T2.34 para prontidão e T2.36 para administração transitória. | REG-P2-006 + UX-006-MOD | evidencias/T2.15/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.14 | bloqueada até concluir pré-condições; uma task por vez |
 | T2.16 | Escolher unidades e dimensões por nome no cadastro técnico | Produto | SPEC-2-007 | CA-2-12; UX-F2-007 | Engenharia cadastra/homologa unidade com dimensão; seletor distingue rascunho/homologada/inativa e servidor rejeita uso não homologado; Comercial não cria. | RED-P2-007A (unidade/papel) + UX-007-UN | evidencias/T2.16/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.3 | bloqueada até concluir pré-condições; uma task por vez |
 | T2.17 | Ligar entradas da composição aos parâmetros da ficha | Produto | SPEC-2-007 | CA-2-12; UX-F2-007 | Selecionar parâmetro por nome/unidade/origem sem ID; ver mínimo/máximo e obrigatoriedade; salvar preserva o vínculo e valores ausentes/unidade divergente/faixa inválida têm mensagem específica. | RED-P2-007A (faixa) + UX-007-MAP | evidencias/T2.17/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.16, T2.33 | bloqueada até concluir pré-condições; uma task por vez |
@@ -106,3 +106,59 @@ T2.19 executa caso de referência antes de T2.4; T2.22 entrega guard antes de T2
 | T2.34 | Entender e preparar prontidão sem digitar IDs | Produto | SPEC-2-001 | UX-F2-001 (proposto) | Família exibe bloqueios/dono/data; selecionar por rótulos apenas SLA/baseline/evidências que possuam consulta segura existente. Não prometer seletor de fixture estruturada no gate. UI envia os mesmos vínculos do contrato vigente e o backend revalida; consulta ausente bloqueia o recorte até emenda explícita, sem acesso irrestrito. | UX-001-UI | evidencias/T2.34/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.15 | bloqueada até concluir pré-condições; uma task por vez |
 | T2.35 | Validar jornada sintética e acessibilidade antes do caso real | Consultor | SPEC-2-005 | UX-F2-005 (proposto) | Champion/Engenharia, com papéis separados, executam roteiro sem IDs fornecidos pelo executor; mediador não ensina caminho; conclusão de todos cenários + falhas registradas + aceite explícito. Protótipo/documento não conta como software validado. | UX-005-SINT/UX-005-REG | evidencias/T2.35/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.10, T2.23, T2.32, T2.33, T2.34, T2.36 | bloqueada até concluir pré-condições; uma task por vez |
 | T2.36 | Organizar entrada administrativa e evidências existentes | Produto | SPEC-2-006 | CA-2-11; UX-F2-006 | Entregar índice administrativo com destinos autorizados para baseline/SLA/backup/fontes/gates/catálogo/modelos/prévia/tempo/qualidade; abrir seções existentes por entradas contextuais preserva os serviços. Não extrair nem redesenhar todas essas telas nesta task; não exigir recibo técnico na jornada cotidiana nem ampliar acesso. | REG-P2-006 + UX-006-ADM | evidencias/T2.36/: versão, esperado/obtido, prova nomeada e aceite do validador | T2.14 | bloqueada até concluir pré-condições; uma task por vez |
+
+## Emendas
+
+| Data | Origem do sinal | Micro-spec/task | Motivo |
+|---|---|---|---|
+| | | | |
+
+## Aditivo de jornada e UX — aprovado por Kim em 20/10/2026
+
+Este aditivo prevalece nos recortes explicitamente alterados. Preserva evidências e aceites anteriores; não aprova software ou uso real por si só.
+
+## Resultado observável aprovado para planejamento
+
+Navegação por papel abre módulos reais; usuário cria/retoma demanda, usa ficha e alcança solução com contexto, estados honestos e identidade visual revisada. Governança fica organizada sem apagar funções.
+
+## Limites, dependências e segurança
+
+Esta é ampliação explícita do limite atual: substituir a exclusão de redesign visual por reorganização visual e interacional definida em ../contrato-experiencia.md. Propõe também revisar CA-2-11: rotas próprias para superfícies centrais; administração pode usar provisoriamente índice com entradas contextuais às seções existentes, sem prometer extração integral nesta onda. Sem aprovação desse desvio, o CA original de rota própria por função permanece e a extração administrativa precisa de novas tasks antes de liberação. Não inclui CRM, novas permissões, conectores, preço ou alterações de regra de negócio.
+
+Aplica o contrato comum de execução vigente (autorização server-side, auditoria, idempotência, versões, unidades, vigência e isolamento sintético). Qualquer demanda de endpoint novo ou mudança de dado/permissão/integração sai desta minuta e exige SPEC explícita antes de executar. Herda limites de aritmética/cálculo das SPECs técnicas. Não inventar dados nem homologação.
+
+## Fluxo e recuperação
+
+Validar especificação visual → expor menu real → extrair por módulo → usar lista/detalhe/ficha → administrar controles existentes por permissão.
+
+Seguir padrões globais de estado vazio, carregamento, erro, conflito, foco, teclado e responsive em `../contrato-experiencia.md`. Ausência de dado é pendência, não zero. Recusar ação indevida no servidor mesmo via URL/API direta.
+
+## Critério adicional para aprovação
+
+- [ ] **UX-F2-006:** Navegação por papel abre módulos reais; usuário cria/retoma demanda, usa ficha e alcança solução com contexto, estados honestos e identidade visual revisada. Governança fica organizada sem apagar funções. Critérios de layout/teclado/contraste/estados do contrato UX precisam ser demonstrados nas superfícies alteradas. Os CA-2-01..16 originais não são renumerados nem dispensados; única mudança de alcance reformulação é CA-2-11 na emenda da SPEC-2-006, que exige decisão explícita da Kim. Sem essa decisão, o critério original permanece.
+
+## TDD da emenda (aprovado para planejamento, não executado)
+
+| Etapa | Cenário verificável | Resultado/evidência |
+|---|---|---|
+| RED | Na versão real conferida, executar cada cenário nomeado na coluna Recorte da prova abaixo, com o critério binário da task como esperado | Registrar falha inicial em captura/DOM e esperado × obtido; não fingir RED se já passa |
+| GREEN | Repetir o mesmo cenário após o recorte mínimo, usando massa sintética isolada e API real do ambiente de teste onde aplicável | Todos critérios do recorte passam; registrar UI, persistência, negativa e versão |
+| REGRESSÃO | Repetir provas originais desta SPEC, 401/403/409 e roteiro de jornada/UX nas superfícies tocadas | Sem regressão dos contratos, sem ampliação de acesso, sem bypass de gate |
+
+**Provas novas desta emenda:** UX-006-DESIGN / UX-006-NAV / UX-006-MOD / UX-006-OP / UX-006-FICHA / UX-006-ADM. Cada identificador é um cenário com condição/ação/resultado definido na task abaixo, não nome de suíte já existente. Os nomes não são comandos inventados.
+
+**Comandos existentes de referência:** `npm test -- --run`, `npm run build`, `npm run lint` no projeto de código, depois de confirmar scripts/versão reais. UI/E2E deve usar runner efetivamente disponível ou roteiro manual gravado + prova API, distinguindo mocks de integração. Etapa skipped/bloqueada não conta como teste aprovado.
+
+**Dados e validador:** sintéticos rotulados em instância isolada; Engenharia/champion validam interação, Consultor revisa matriz; caso real só após gate e homologações atuais. Não incluir segredos nas capturas. Evidências por task em `evidencias/<id>/`, sem afirmar que já existem.
+
+## Checklist de liberação (pré-implementação)
+
+- [ ] Decisão da Kim em 20/10 autoriza esta revisão documental; implementação exige os gates por task.
+- [ ] Checks de escopo/cliente aplicáveis reconciliados, sem aprovação presumida.
+- [ ] Versões Skip/GitHub/evidências conciliadas e mapa de acesso registrado.
+- [ ] Cada recorte cabe em uma sessão ou foi decomposto antes da execução.
+- [ ] RED/GREEN/regressão e teste humano vinculados ao recorte antes de encerrar.
+
+## Risco e rollback
+
+Reorganização pode perder estado compartilhado, vínculo ou acesso. Se a regressão falhar, voltar à superfície anterior autorizada, sem apagar dados, versões ou evidências; nunca voltar a exibir dados fictícios como reais. Não alterar migration aplicada nem fazer migração destrutiva. Na hipótese de consulta segura ausente, parar e especificar, não improvisar.
