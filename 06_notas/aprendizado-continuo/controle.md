@@ -1,0 +1,1 @@
+- 2026-10-21T10:52:00-03:00 · task T2.14 · candidato registrado em `06_notas/aprendizado-continuo/AP-2026-10-21-1052-foco-client-side-estavel.md` · após varredura SPA inconsistente, verificar cada âncora com foco estável antes de marcar PASS (evidência: PROVAS-T2.14.md).

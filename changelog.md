@@ -9,3 +9,11 @@ Histórico anterior preservado em [CHANGELOG.md](CHANGELOG.md). Novos registros 
 ## 2026-10-20 — Aceite próprio da T2.3
 
 Champion (Paulo) confirmou o aceite próprio da T2.3: rascunho persistido e duplicidade com motivo real, sem novo registro. Fechamento exclusivamente documental — sem implementação de código, homologação ou criação de composições; gate de cálculo operacional permanece bloqueado. Provas: RED/GREEN-P2-002A (duplicidade geotecnia COMP-TESTE-01 v1 id26ljaq5sixv5unr, catálogo krkue1xg6fiwlfe; 409 com motivo real e uma única versão) em `05_entregas/fase-2/evidencias/t2-13/PROVA-T2.13.md` e nota `06_notas/debug/debug-2026-10-19-t2-13-menu-placeholder.md` (GET 200 com uma única v1). Recibo: `05_entregas/fase-2/evidencias/t2-3/ACEITE-T2.3.md`.
+
+## 2026-10-21 — Conclusão T2.14
+
+- 2026-10-21 · Paulo Romeiro · Task T2.14 concluída: teste humano aprovado nos cinco cenários de navegação por papel, acesso contextual às 14 funções existentes, URLs legadas e mobile. Skip 0.0.74/5c9a014: setup/estática/build/integrações PASS; suíte do Skip pulada (`ran:false`); Vitest local 16/16 dentro das limitações documentadas. Preview: GET sem sessão 401, leitura autenticada 200, Comercial sem criação/homologação (403), duplicidade geotecnia HTTP 409 com motivo real, sem nova composição/versão e com evento de rejeição em `audit_logs`; gate de cálculo permanece bloqueado. Recibo `05_entregas/fase-2/evidencias/t2-14/ACEITE-T2.14.md`.
+
+## 2026-10-21 — Aprendizado T2.14
+
+Verificação rápida de navegação client-side pode observar o foco do destino anterior antes do paint. Evidência consolidada em `05_entregas/fase-2/evidencias/t2-14/PROVAS-T2.14.md`: uma varredura inicial foi inconsistente; navegação isolada após render estável confirmou 14/14. Candidato reutilizável em `06_notas/aprendizado-continuo/AP-2026-10-21-1052-foco-client-side-estavel.md`: aguardar estabilidade e verificar cada âncora isoladamente; não inferir PASS de snapshot imediato.
