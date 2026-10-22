@@ -17,3 +17,7 @@ Champion (Paulo) confirmou o aceite próprio da T2.3: rascunho persistido e dupl
 ## 2026-10-21 — Aprendizado T2.14
 
 Verificação rápida de navegação client-side pode observar o foco do destino anterior antes do paint. Evidência consolidada em `05_entregas/fase-2/evidencias/t2-14/PROVAS-T2.14.md`: uma varredura inicial foi inconsistente; navegação isolada após render estável confirmou 14/14. Candidato reutilizável em `06_notas/aprendizado-continuo/AP-2026-10-21-1052-foco-client-side-estavel.md`: aguardar estabilidade e verificar cada âncora isoladamente; não inferir PASS de snapshot imediato.
+
+## 2026-10-22 — Debug T2.15
+
+- 2026-10-22 · Paulo Romeiro · DEBUG task T2.15: criação de rascunho retornou 400 “Informe o item do catálogo da composição.” → causa raiz confirmada: o formulário extraído aceitava texto livre para `catalog_item_id`, enquanto o endpoint exige o ID real de um registro de catálogo com formato de 15 caracteres minúsculos; logs não guardavam o corpo, portanto o valor enviado não foi inferido. Corrigido em Skip 0.0.79/f0b31fa com seleção dos registros via `getCatalogItems` existente e bloqueio de envio sem seleção válida. QA: setup/estática/build/integrações PASS; suíte Skip pulada (`ran:false`); Vitest focado 8/8 e regressão local 12/12; preview mostrou opções e seleção sem submissão. Nenhum registro criado, produção não publicada. Reteste humano pendente. Debug: `06_notas/debug/debug-2026-10-22-t2-15-id-catalogo.md`.
