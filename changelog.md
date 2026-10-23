@@ -33,3 +33,9 @@ Verificação rápida de navegação client-side pode observar o foco do destino
 ## 2026-10-22 — Retificação da análise da DÚVIDA T2.5
 
 A análise final confirmou que unidade incompatível é requisito explícito da T2.5 (CA-2-04 / RED-P2-003A), usando assinaturas dimensionais sintéticas. Isso não inclui criar catálogo persistente de unidades (T2.16) ou editor/mapeamento (T2.17/T2.18). Portanto, unidade incompatível **não** é decisão pendente. Permanecem apenas: (1) mecanismo reprodutível para demonstrar a fixture sintética em goja/JSVM sem chamar o endpoint real, criar cálculo operacional ou abrir o gate; (2) semântica canônica de arredondamento entre SPEC-2-002/2-003. A matriz corrigida está em `artifacts/t2-5/ANALISE-T2.5.md`. Nenhum código/SPEC/schema/migration foi alterado; tarefa segue bloqueada aguardando consultoria.
+
+## 2026-10-23 — T2.5 pulada; T2.31 selecionada
+
+- 2026-10-23 · Paulo Romeiro · Decisão do champion: pular a T2.5 e a SPEC-2-003 neste ciclo e seguir para a próxima task sem dependência pendente. A DÚVIDA da T2.5 permanece registrada para a consultoria (mecanismo de prova sintética no goja/JSVM sem cálculo real e reconciliação de arredondamento SPEC-2-002/2-003), sem bloquear a sequência escolhida.
+- Levantamento das pré-condições: T2.16 não é elegível apesar da tabela (SPEC-2-007 exige T2.5); T2.4/T2.6/T2.7 seguem com dependências abertas. A **T2.31** (SPEC-2-006, pré-condição T2.15 concluída) é a primeira task da jornada principal cujo contrato não depende da T2.5.
+- Análise read-only da T2.31 em `artifacts/t2-31/ANALISE-T2.31.md`: a área já tem formulário e lista de demandas, mas não possui busca/filtro, detalhe persistido ao reabrir, ação “Nova demanda” nem retorno preservando contexto. Nenhuma implementação iniciada; aguarda autorização do champion.
