@@ -42,6 +42,85 @@ T2.29 conserva somente vínculos suportados pelo gate existente; T2.28 é evidê
 
 Consultas seguras necessárias para seletores devem ser inventariadas antes do recorte. Se ausentes, parar e registrar necessidade de SPEC de dados/permissão; não criar acesso irrestrito nem inventar endpoint. Sem casos estruturados ainda, T2.33 preserva validação e referência documental vigente; seletor de composition_fixtures só em T2.19/T2.4.
 
+## Critérios de aceite
+
+- CA-2-01 Fixture estruturada registrada por família com versão e dono.
+- CA-2-02 Gate consulta fixture vigente e nega sem registro.
+- CA-2-03 Aritmética decimal determinística com política de arredondamento explícita.
+- CA-2-04 Rejeição de unidade incompatível e divisão por zero com motivo.
+- CA-2-05 Rascunho de composição persiste e duplicidade é negada com motivo real.
+- CA-2-06 Dimensionamento assistido executa composição homologada com memória.
+- CA-2-07 Memória registra entradas, saídas e decisões humanas.
+- CA-2-08 Memória navegável por versão e demanda.
+- CA-2-09 Ajustes pós-cálculo exigem justificativa e trilha.
+- CA-2-10 Exportação fiel da memória.
+- CA-2-11 Navegação por papel sem placeholders.
+- CA-2-12 Composição valida unidades homologadas e parâmetros da ficha.
+- CA-2-13 Dimensionamento por passos com guard.
+- CA-2-14 Solução com várias composições por demanda.
+- CA-2-15 Pendências bloqueiam confirmação/congelamento.
+- CA-2-16 Baseline congelado com parecer.
+
+## Demonstração visível
+
+- Biblioteca com versões, estados e papéis.
+- Ficha técnica com pendências explicadas.
+- Dimensionamento com memória e ajustes justificados.
+- Gate com bloqueios por família.
+
+## Fora desta fase
+
+- Preço, faturamento, envio de propostas, CRM, IA generativa e integrações produtivas.
+
+## Expansão de 14/10/2026
+
+Aprovada pelo champion: unificação de superfícies por demanda (Oportunidades, Ficha, Biblioteca, Prontidão) preservando IDs de tasks e provas; T2.30–T2.36 detalham navegação e UX. Nenhum software novo aprovado por esta expansão.
+
+## Resultado observável aprovado para planejamento
+
+O champion valida cada task com teste humano no preview antes do fechamento; autorização é task a task.
+
+## Limites, dependências e segurança
+
+- Nenhum cálculo real antes do gate aberto com fixture e homologações.
+- Papéis: Engenharia cria/homologa; Comercial lê; Admin administra.
+- Nenhum segredo no repositório; credenciais fora do código.
+
+## Fluxo e recuperação
+
+- Demanda → ficha → composição → gate → dimensionamento → memória → ajustes → exportação.
+- Cada etapa preserva estados anteriores; recuperação por versão.
+
+## Critério adicional para aprovação
+
+Tarefa só fecha com teste humano confirmado pelo champion e registro em changelog.
+
+## TDD da emenda (aprovado para planejamento, não executado)
+
+- RED-P2-002A duplicidade com motivo real (executada na T2.13).
+- RED-P2-003A unidade incompatível (pendente T2.5).
+- RED-P2-006A/B navegação e mensagens (executadas T2.13/T2.14).
+- RED-P2-007A/B unidade, faixa e caso de referência (T2.16/T2.17/T2.19).
+- RED-P2-008A/B itens e pendências (T2.20/T2.22).
+
+## Checklist de liberação (pré-implementação)
+
+- [x] Contrato e SPECs publicados.
+- [x] Emenda de jornada e UX aprovada.
+- [ ] Gate de prontidão com dados reais.
+- [ ] Fixture estruturada registrada.
+
+## Risco e rollback
+
+- Migrations aditivas; rollback por versão do Skip.
+- Nenhuma coleção existente alterada sem emenda.
+
+### Regras de integração e precedência desta revisão
+
+- Tabela de Tasks prevalece sobre seções descritivas.
+- Emendas registram DÚVIDAs com dono e data.
+- Extrações adicionais exigem recorte próprio.
+
 ## Tasks
 
 | ID | Task | Tipo | SPEC | Critérios | Contrato | Prova | Evidência | Pré-condições | Estado |
