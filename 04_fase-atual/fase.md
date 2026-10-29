@@ -169,7 +169,7 @@ Tarefa só fecha com teste humano confirmado pelo champion e registro em changel
 | 2026-10-27 | T2.33 (análise read-only + decisão do champion) | a definir em SPEC-2-002 | **DÚVIDA:** a T2.33 exige "reabrir composição", mas `composition_versions` não tem leitura individual (`viewRule: null` e nenhuma rota GET por ID; o hook expõe só lista, create e revise). Cumprir exige rota de leitura autenticada por ID no mesmo recorte de papel da listagem. A SPEC-2-002 determina que demanda de endpoint novo sai da minuta até SPEC explícita. Alternativa: reduzir formalmente o critério da T2.33 a criar + listar e mover "reabrir" para a task da emenda. Aguarda decisão da consultoria. |
 | 2026-10-29 | T2.17 (teste humano, rodada 3) | a definir em SPEC-2-002 (ciclo de vida de `units`) | **DÚVIDA:** o design da T2.16 combina índice único permanente em `units.code` com proibição de rehomologar unidade inativa — o código inativado fica permanentemente indisponível (não rehomologa, não recadastra; bloqueou o teste da T2.17 com o `m2` inativado). Opções: (a) reativação com auditoria; (b) código único só entre ativas (índice parcial) com recadastro; (c) manter como intencional (código queimado). Altera migration/hook da T2.16 e exige recorte próprio. Aguarda decisão do champion/consultoria. |
 
-## Aditivo de jornada e UX — aprovado por Kim em 20/10/2026
+## Aditivo de jornada e UX — aprovado by Kim em 20/10/2026
 
 Este aditivo prevalece nos recortes explicitamente alterados. Preserva evidências e aceites anteriores; não aprova software ou uso real por si só.
 
