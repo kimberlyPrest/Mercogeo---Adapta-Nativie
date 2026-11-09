@@ -111,3 +111,7 @@ A análise final confirmou que unidade incompatível é requisito explícito da 
 - 2026-11-09 · Kim · **C12:** composições `synthetic` calculadas sem o gate, sempre como simulação, fora do Painel e de K1–K3 (T2.6). **C13:** `contrato-experiencia.md` e `inventario-superficies.md` alinhados à D-UX-01, com histórico preservado. **C14:** rotas novas a partir da T2.18 conferem a matriz `role_permissions`.
 - 2026-11-09 · consultoria · Deploy: v0.0.157 (`f8a4cdc`) no preview com UX/admin; migrations 0051/0052 aplicadas; hooks de admin, permissões, desfecho e bloqueio ativos (401 sem login). Produção segue na v0.0.155 aguardando publicação.
 - 2026-11-09 · Kim · Produção publicada na v0.0.157: card da oportunidade, área de Usuários e permissões e design system no ar (conferido no código servido em produção). Admin: Paulo Romeiro (migration 0051).
+
+## 2026-11-09 — C15: substituir a planilha orçamentária
+
+- 2026-11-09 · Kim · Após a análise das planilhas de teste de geotecnia e poliureia: a **T2.18** passa a montar o **modelo de orçamento da família** (campos da visita técnica + regra de quantidade de cada item em blocos visuais; motor estendido com arredondar, raiz, máximo/mínimo e condição); a **T2.19** passa a **conferir o modelo contra a planilha atual** (esperado × obtido por item; caso inicial: teste de geotecnia, 1.000 m² com 10 cm → 667 furos, 100 m³); a **T2.21** inclui **equipe e prazo** a partir das horas das composições. Sem emenda: nenhuma delas havia sido implementada.
