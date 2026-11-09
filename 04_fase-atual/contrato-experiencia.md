@@ -6,7 +6,7 @@
 
 A Fase 2 é uma central de trabalho técnico: **demanda → ficha → solução e quantitativos → revisão técnica**. Não é um CRM de clientes/obras, não calcula preço e não envia proposta comercial. O fluxo termina em resultado técnico revisado/congelado, com memória exportável. Família, fórmula, unidades, faixas, coeficientes e tolerância continuam decisões da Engenharia.
 
-A marca verde/laranja é preservada como hipótese de direção visual para revisão da Kim. A mudança proposta é hierarquia, densidade, linguagem, acessibilidade e interação, não uma troca cosmética de paleta. Não foi validada visualmente com o cliente.
+**Atualizado em 09/11/2026 (D-UX-01, C13):** a paleta oficial é a da marca — petróleo `#17677A` e laranja (`#C2410C` para ação com texto branco; `#F97316` só em marcadores) —, com tema claro e escuro, conforme o design system "Laje nivelada" (`docs/design-system/DESIGN-mercogeo.md` no repo de código). *Texto anterior (20/10): "A marca verde/laranja é preservada como hipótese de direção visual para revisão da Kim."* A mudança continua sendo hierarquia, densidade, linguagem, acessibilidade e interação, organizadas em torno da oportunidade.
 
 ## 2. Mapa de navegação proposto
 
@@ -20,7 +20,7 @@ A marca verde/laranja é preservada como hipótese de direção visual para revi
 | Prontidão da família | Engenharia/Admin; leitura apenas se já autorizada | Pendências e evidências da família, com seleção por nomes e verificação do servidor. Estado bloqueado/aprovado/inválido explícito. |
 | Administração e evidências | somente papéis já autorizados | Reorganizar as funções existentes de catálogo, SLA, baseline, recuperação, auditoria de fontes, gates, modelos e prévia sem preço; preservar acesso e comportamento. Não ampliar permissão nem apagar função por não ser central à jornada. |
 
-**Permissão:** a proposta não concede acesso novo a nenhum papel. Antes da implementação, inventariar ações e dados autorizados; uma rota nova conserva o mesmo controle server-side. Esconder menu não é controle de segurança. Não dar acesso geral ao papel Admin por suposição fora da política existente.
+**Permissão:** a proposta não concede acesso novo a nenhum papel, **exceto** a leitura de todas as oportunidades, marcos e fichas por Gestão, Aprovador e Administrador, decidida na D-UX-01 (migration 0052; escrita inalterada). A partir da T2.18, rotas novas conferem também a matriz `role_permissions` (C14). Antes da implementação, inventariar ações e dados autorizados; uma rota nova conserva o mesmo controle server-side. Esconder menu não é controle de segurança. Não dar acesso geral ao papel Admin por suposição fora da política existente.
 
 **Rotas:** os nomes acima são de produto, não URLs novas já implementadas. T2.14 deve registrar o mapa concreto a partir das rotas existentes. Links antigos permanecem com redirecionamento/compatibilidade segura até a regressão, sem descartar contexto.
 
