@@ -20,7 +20,7 @@
     {
       "path": "04_fase-atual/fase.md",
       "classification": "fase-atual",
-      "sha256": "fac7a58aedf14df888a2a418d4caa542cc23c6c23ce995ce613eadbcfbd9092e"
+      "sha256": "dab0fd2749140cf974a34509f8148ab41409026d2e67b834457d5cb8e13f59fe"
     },
     {
       "path": "04_fase-atual/inventario-superficies.md",
@@ -40,12 +40,12 @@
     {
       "path": "04_fase-atual/specs/spec-2-001.md",
       "classification": "spec-fase-atual",
-      "sha256": "7e1b8f9f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f"
+      "sha256": "82ec343a99d75cd3213022a4c75a5742b234b0c9e331ee75c36d8ed60b6d4489"
     },
     {
       "path": "04_fase-atual/specs/spec-2-002.md",
       "classification": "spec-fase-atual",
-      "sha256": "4e2722039065a342ac865f263952741f512f2ec44856dc1ff41950ff25c42f78"
+      "sha256": "2c5a8275c55cbeb0755596619acece0adde2ccfcb85c702a415cf2e4078b2cf8"
     },
     {
       "path": "04_fase-atual/specs/spec-2-003.md",
@@ -65,12 +65,12 @@
     {
       "path": "04_fase-atual/specs/spec-2-006.md",
       "classification": "spec-fase-atual",
-      "sha256": "d5d57c571fa4fc6fdca61346de8191032f7f87346ee35308a5e13f122509f996"
+      "sha256": "e3aca48c792683c4d3e9cf56b99bf8683d47284bf76f381556e97c1810b347bc"
     },
     {
       "path": "04_fase-atual/specs/spec-2-007.md",
       "classification": "spec-fase-atual",
-      "sha256": "6b0870c4ea4dc756787774f177ccaa734a2206bb2fd13a7d2ab85821f4913676"
+      "sha256": "03056eb720de463a34ab322784f2c2e215873b5e5570ac8b1f987a57a107fc7b"
     },
     {
       "path": "04_fase-atual/specs/spec-2-008.md",
@@ -85,7 +85,7 @@
     {
       "path": "STATUS.md",
       "classification": "template-publico",
-      "sha256": "d212bf520f81e0bf4b2ebef4223a8e8a9ada1cb0df8e0cf1aaa817f2b5511db3"
+      "sha256": "79e996bf2992ae8e42033f3f1010e72b11f6b7841f9f9f4ddc705536c37ce23b"
     },
     {
       "path": "changelog.md",
@@ -95,7 +95,7 @@
     {
       "path": "matriz-de-rastreabilidade.md",
       "classification": "template-publico",
-      "sha256": "d4462c68e80977ef9a76d84f43e807bab21793bde9d2a87fa8bd03d8706e9772"
+      "sha256": "9a34f7eea2b4f447ff28f8df62de94b69cadbbb9e31be8d55131ee8569a0a518"
     }
   ],
   "revision": {
