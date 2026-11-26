@@ -15,17 +15,17 @@
     {
       "path": "04_fase-atual/contrato-experiencia.md",
       "classification": "template-publico",
-      "sha256": "6bdd14b9dcb290bbf7ca83368fd7ec79f8540434f9adb69b00430d2204609aac"
+      "sha256": "bad565da5064c47cfe0fb8a0430af1803a0565f1fe140642ee35ff658ee0bca8"
     },
     {
       "path": "04_fase-atual/fase.md",
       "classification": "fase-atual",
-      "sha256": "0ab01e7c6691d01b1740b92eceabfd897b87247bd04f18e48e69d6a2c5d26bc1"
+      "sha256": "a6a4d9b5e5f395c2478ccdc1abac4c583fce3f008f088676f437029abce1d9d6"
     },
     {
       "path": "04_fase-atual/inventario-superficies.md",
       "classification": "template-publico",
-      "sha256": "183e7ef26126465fb74e801c1c2008d88032d3606655d8a64ba0d8c24f5316e8"
+      "sha256": "d5dc8befa086a5ecd7033a15980d4db484d7abd2e0664bbab316c2339229cd47"
     },
     {
       "path": "04_fase-atual/roteiro-validacao-ux.md",
@@ -40,17 +40,17 @@
     {
       "path": "04_fase-atual/specs/spec-2-001.md",
       "classification": "spec-fase-atual",
-      "sha256": "00c332be6f0f6736287592c7d6a3ba3c4d5621e7d803a3b4f5888ede57b9fe93"
+      "sha256": "31ccb9eeb3991c06dc2f3fa740a3cfae4bab059161dff9e73f38be78d57cb7a1"
     },
     {
       "path": "04_fase-atual/specs/spec-2-002.md",
       "classification": "spec-fase-atual",
-      "sha256": "39385c98e558a031e54615777fe5ee7895a2b16349a31e4a3c4d541efbe7d292"
+      "sha256": "4e2722039065a342ac865f263952741f512f2ec44856dc1ff41950ff25c42f78"
     },
     {
       "path": "04_fase-atual/specs/spec-2-003.md",
       "classification": "spec-fase-atual",
-      "sha256": "e06e89efa62e19b743b16ef7b528dfb4b8bc43d77a2b9e53ce60be45fe426a0b"
+      "sha256": "74d9c2c675767f471347c9b5f77d9d2e4243fb63c29e753c85935283c3c54785"
     },
     {
       "path": "04_fase-atual/specs/spec-2-004.md",
@@ -60,48 +60,48 @@
     {
       "path": "04_fase-atual/specs/spec-2-005.md",
       "classification": "spec-fase-atual",
-      "sha256": "a33c58a401230c7d5b6d75de195e6034fb580dd27ba22c2834a02f15bb9c34f7"
+      "sha256": "c1e18d3e825ce34a8461722a332b4604a15474033329eaf10cd83ece9daef945"
     },
     {
       "path": "04_fase-atual/specs/spec-2-006.md",
       "classification": "spec-fase-atual",
-      "sha256": "65a225bef1186189a904eb788a4568c722e6d6bed343e986764ac0b6bd1dee51"
+      "sha256": "d5d57c571fa4fc6fdca61346de8191032f7f87346ee35308a5e13f122509f996"
     },
     {
       "path": "04_fase-atual/specs/spec-2-007.md",
       "classification": "spec-fase-atual",
-      "sha256": "ed1203412bb30d8604229b285ebb4878d44b7aff4d998c321a632359a9cd59d5"
+      "sha256": "6b0870c4ea4dc756787774f177ccaa734a2206bb2fd13a7d2ab85821f4913676"
     },
     {
       "path": "04_fase-atual/specs/spec-2-008.md",
       "classification": "spec-fase-atual",
-      "sha256": "e273d94bf65ee03fc09a4f27fd75c648923ba909d1bf7a92baa529ca7e8f5ffc"
+      "sha256": "85ddf0f35e14108713bdfb89a2ff38fe9c56ab03e5b54cb57b73d17e83b694b0"
     },
     {
       "path": "CLAUDE.md",
       "classification": "template-publico",
-      "sha256": "b8982dbae4aae3b74620eadb2cb03ecbbfba14201455e45e4119b4d963e9cc0f"
+      "sha256": "3781d0792bb2040bec0a5f21d7756433e30aea4db6ea33719619c4ce8d0091ac"
     },
     {
       "path": "STATUS.md",
       "classification": "template-publico",
-      "sha256": "f22a341f98356be9a9aaa6afebade9e4825e0bf1f8847d5ff5a44f7ca8305204"
+      "sha256": "d212bf520f81e0bf4b2ebef4223a8e8a9ada1cb0df8e0cf1aaa817f2b5511db3"
     },
     {
       "path": "changelog.md",
       "classification": "template-publico",
-      "sha256": "26ea55b020c3a68bbf6d875dd21c0169a8c28bfef69ee0fccf94f4343ea2ff22"
+      "sha256": "b30dc63b437824b2d88611a5fb715e81d67598d2a4e72de22062f7235a9202b2"
     },
     {
       "path": "matriz-de-rastreabilidade.md",
       "classification": "template-publico",
-      "sha256": "8b1685fafcde860e1ba49321d1a1db06b927311286e9b9ae3e19f02c5a458db1"
+      "sha256": "d4462c68e80977ef9a76d84f43e807bab21793bde9d2a87fa8bd03d8706e9772"
     }
   ],
   "revision": {
-    "date": "2026-10-20",
-    "kind": "jornada-ux-documental",
-    "authorizedBy": "Kim",
-    "sourceCommit": "f53368217c806a8e4d54bdb831de22200a64491a"
+    "date": "2026-11-26",
+    "kind": "correcao-documental",
+    "authorizedBy": "Paulo Romeiro (champion) — 'Vamos seguir conforme você orientou'",
+    "sourceCommit": "4e437f2 (base) + correções da branch correcao-documental-2026-11-26; ver changelog.md 26/11/2026"
   }
 }
