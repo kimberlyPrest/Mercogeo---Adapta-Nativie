@@ -20,7 +20,7 @@
     {
       "path": "04_fase-atual/fase.md",
       "classification": "fase-atual",
-      "sha256": "a6a4d9b5e5f395c2478ccdc1abac4c583fce3f008f088676f437029abce1d9d6"
+      "sha256": "fac7a58aedf14df888a2a418d4caa542cc23c6c23ce995ce613eadbcfbd9092e"
     },
     {
       "path": "04_fase-atual/inventario-superficies.md",
@@ -40,7 +40,7 @@
     {
       "path": "04_fase-atual/specs/spec-2-001.md",
       "classification": "spec-fase-atual",
-      "sha256": "31ccb9eeb3991c06dc2f3fa740a3cfae4bab059161dff9e73f38be78d57cb7a1"
+      "sha256": "7e1b8f9f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f8f"
     },
     {
       "path": "04_fase-atual/specs/spec-2-002.md",
@@ -102,6 +102,6 @@
     "date": "2026-11-26",
     "kind": "correcao-documental",
     "authorizedBy": "Paulo Romeiro (champion) — 'Vamos seguir conforme você orientou'",
-    "sourceCommit": "4e437f2 (base) + correções da branch correcao-documental-2026-11-26; ver changelog.md 26/11/2026"
+    "sourceCommit": "branch correcao-documental-2026-11-26 (commits de 26/11/2026); ver changelog.md 26/11/2026"
   }
 }
