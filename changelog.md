@@ -1,5 +1,19 @@
 # Histórico operacional
 
+## 2026-11-26 — Correção documental C16 (análise de coerência a pedido do champion)
+
+- 2026-11-26 · Paulo Romeiro (champion) autorizou: "Vamos seguir conforme você orientou". Executada a correção documental antes de qualquer implementação. Nenhuma task de implementação foi iniciada; gate segue fechado.
+- **C16 — Critérios de aceite da fase restaurados:** o bloco `## Critérios de aceite` da `04_fase-atual/fase.md` havia sido reescrito no commit `806f874` com texto que não corresponde a nenhuma SPEC (os 16 CA-2-xx divergiam). Restaurados verbatim das SPECs (fonte de verdade pela regra de precedência), com nota de correção no local.
+- **Tabela de tasks realinhada às SPECs (refaz a C1):** T2.1, T2.2, T2.3, T2.31, T2.32 e T2.33 voltaram ao nome/dono/SPEC/critérios/pré-condições das SPECs; estados preservados.
+- **Status sincronizados nas SPECs:** 11 tasks concluídas (T2.3, T2.5, T2.14, T2.15, T2.16, T2.17, T2.31, T2.32, T2.33, T2.34, T2.36) deixaram de aparecer como "bloqueada" dentro das tabelas das SPECs.
+- **Matriz de rastreabilidade regenerada:** 37 linhas (inclui a T2.37, ausente antes), status espelhando a fase; a versão de 20/10 tinha 30/36 linhas "bloqueada".
+- **Contagem fixada em 37** em CLAUDE.md ("29 tasks"/"36 registros" corrigidos) e STATUS.md.
+- **AP-2026-10-27-1530:** a citação na C1 apontava para uma nota inexistente em `06_notas/aprendizado-continuo/`; substituída pela referência à regra de precedência das SPECs, com nota da correção.
+- **Evidência da T2.1:** criada `05_entregas/fase-2/evidencias/t2-1/README.md` apontando para o recibo GREEN-P2-001 (PRONTIDAO-F2.md).
+- **handoff-manifest.json regenerado** (sha256 dos 18 arquivos; divergências 0).
+- **Achado de código registrado no STATUS:** submódulo `07_codigo` aponta para commit inexistente (`97d9790`); topo do repo de código é v0.0.155; sem commit 0.0.156/0.0.157 nem branch `ux-crm-propostas` no GitHub; `.skip.config.json` registra produção em `095b88a` (v0.0.150). A localização da v0.0.157 é pré-condição da T2.18.
+- **Ordem acordada:** T2.37 antes da T2.18; T2.18 com recorte em 3 fatias (aceite por fatia); cobrança das tasks de dono Mercogeo (T2.24–T2.29) em paralelo.
+
 ## 2026-10-20 — Jornada e UX da Fase 2
 
 Kim autorizou a revisão documental e o commit. Preservados IDs, evidências e aceites T2.1/T2.2/T2.13 (conclusão T2.13 sincronizada em f533682); T2.3 continua separada. T2.30–36 detalham experiência. Reordenados fixture antes da homologação e guard antes de confirmar/congelar; GREEN-P2-008B atribuída a T2.7. T2.33 não pressupõe seletor de caso ainda inexistente; T2.29 conserva schema atual, com contrato real como evidência documental e validação complementar nos fluxos de cálculo/composição. Administração por índice contextual aprovada no CA-2-11. Nenhum software, integração ou cálculo real implementado por esta revisão.
